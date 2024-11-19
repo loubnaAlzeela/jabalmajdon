@@ -88,11 +88,12 @@ section {
   padding: 110px 16% 90px;
 }
 
-.hero {
+hero {
   height: 100vh;
   width: 100%;
   background-image: url('../img/website\ photos-01.jpg');
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
