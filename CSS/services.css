@@ -11,7 +11,7 @@
 --text-color:#fff;
 --bg-color:#1b1f24;
 --second-bg-color:#22282f;
---main-color:#13bbff;
+--main-color:#C39E69;
 --other-color:#cbdaf1;
 --container-color:#435a7ac2;
 --h1-font:4.5rem;
@@ -33,6 +33,16 @@
   align-items: center;
   justify-content: flex-start;
 }
+.list-row i {
+  background-color: var(--main-color);
+ }
+ .con-details i {
+  background-color: var(--main-color);
+}
+
+.main-content h1{
+  font-size:--h1-font;
+}
 
 /*====End Landgin page==*/
 /*=============== CARD ===============*/
@@ -41,7 +51,7 @@
   border: #13bbff;
   place-items: center;
  
-  padding-block: 5rem;
+
 }
 
 .card__container {
@@ -256,8 +266,38 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+.row {
+  background:var(--bg-color);
+  border-radius: 28px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px var(--main-color);
+  padding: 20px;
+  transition: all .50s ease;
+  margin: 20px;
+}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+  .main-content h1{
+    font-size:var(--p-font)t;
+  }
+}
+@media (max-width:470px) {
+  .main-content h1{
+    font-size:3rem;
+    text-align: center;
+  }
+}
+@media (max-width:680px) {
+  .main-content h1{
+    font-size:2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width:950px){
+  .main-content h1{
+    font-size:1rem;
+  }
 }
