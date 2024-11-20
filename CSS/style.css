@@ -466,10 +466,11 @@ margin-bottom: 0;
 
 }
 .team-title{
- font-size: 50px;
+ font-size: 40px;
  font-family: sans-serif;
  display: flex;
  justify-content: center;
+  margin: 0 auto
 }
 
 .teams{
@@ -986,10 +987,11 @@ align-content: center;
 }
 
 .team-title{
-  font-size: 50px;
+  font-size: 40px;
   font-family: sans-serif;
   display: flex;
   justify-content: center;
+  margin: 0 auto; 
  }
 
 .about {
@@ -1035,10 +1037,11 @@ align-content: center;
  
 }
 .team-title{
-  font-size: 50px;
+  font-size: 40px;
   font-family: sans-serif;
   display: flex;
   justify-content: center;
+  margin: 0 auto
  }
 
   .hero {
@@ -1057,10 +1060,11 @@ align-content: center;
     padding: 1rem;
   }
   .team-title{
-    font-size: 50px;
+    font-size: 40px;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+    margin: 0 auto
    }
 
    .hero {
