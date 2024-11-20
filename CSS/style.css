@@ -423,9 +423,9 @@ color: var(--other-color);
 }
 
 .contact-details{
-  margin: 10px 0 0 15px;
+  margin: 10px 0 0 5px;
  color:var(--text-color) ;
-
+font-size: 18px;
 
 }
 .contact-details span {
@@ -1049,6 +1049,9 @@ align-content: center;
     height: 50vh;
     background-position: center;
 }
+.contact-details{
+  font-size: 14px;
+}
 }
 
 @media screen and (max-width: 340px) {
@@ -1072,6 +1075,8 @@ align-content: center;
     height: 30vh;
     background-position: center;
 }
+.contact-details{
+  font-size: 10px;
 }
-
+}
 
