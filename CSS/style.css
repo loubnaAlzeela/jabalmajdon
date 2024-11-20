@@ -381,14 +381,11 @@ form .send-btn:hover {
   cursor: pointer;
 }
 .footer {
- 
   justify-content: end;
-  
   align-items: end;
   justify-content: space-between;
- 
-
 }
+
 .list-row i {
  background-color: var(--main-color);
 }
@@ -628,10 +625,8 @@ font-size: 24px;
 /*=============== CARD ===============*/
 .container {
   display: grid;
- 
-  place-items: center;
- 
-  padding-block: 5rem;
+   place-items: center;
+  
 }
 
 .card__container {
@@ -962,6 +957,7 @@ align-content: center;
   }
   .contact-col{
       width: 100%;
+
   }
   .contact-row{
       display: grid;
