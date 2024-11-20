@@ -425,6 +425,7 @@ color: var(--other-color);
 .contact-details{
   margin: 10px 0 0 15px;
  color:var(--text-color) ;
+  size: --p-font;
 
 }
 .contact-details span {
