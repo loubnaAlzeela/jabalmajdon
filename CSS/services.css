@@ -40,9 +40,6 @@
   background-color: var(--main-color);
 }
 
-.main-content h1{
-  font-size:--h1-font;
-}
 
 /*====End Landgin page==*/
 /*=============== CARD ===============*/
@@ -280,24 +277,38 @@
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
   .main-content h1{
-    font-size:var(--p-font)t;
+    font-size: 10xp;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 2px;
   }
 }
 @media (max-width:470px) {
   .main-content h1{
-    font-size:3rem;
+    font-size: 30xp;
+    font-weight: 900;
     text-align: center;
+    line-height: 1.2;
+    margin-bottom: 2px;
   }
 }
 @media (max-width:680px) {
   .main-content h1{
-    font-size:2rem;
+    font-size: 1xp;
+    font-weight: 100;
     text-align: center;
+    line-height: 1.2;
+    margin-bottom: 2px;
   }
 }
 
 @media (max-width:950px){
   .main-content h1{
-    font-size:1rem;
+    font-size: 1xp !important;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.2;
+    margin: 20px 0 0 2px;
   }
 }
