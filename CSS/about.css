@@ -11,7 +11,7 @@
 --text-color:#fff;
 --bg-color:#1b1f24;
 --second-bg-color:#22282f;
---main-color:#13bbff;
+--main-color:#C39E69;
 --other-color:#cbdaf1;
 --container-color:#435a7ac2;
 --h1-font:4.5rem;
@@ -27,7 +27,12 @@
   align-items: center;
   justify-content: flex-start;
 }
-
+.list-row i {
+  background-color: var(--main-color);
+ }
+ .con-details i {
+  background-color: var(--main-color);
+}
 /*====End Landgin page==*/
 /*=============== CARD ===============*/
 .slider{
@@ -318,4 +323,14 @@
   }
   .description{
     font-size: 1em;}
+}
+
+.row {
+  background:var(--bg-color);
+  border-radius: 28px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px var(--main-color);
+  padding: 20px;
+  transition: all .50s ease;
+  margin: 20px;
 }
