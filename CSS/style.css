@@ -100,7 +100,14 @@ section {
   justify-content: flex-start;
 }
 
-
+.hero1{
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .main-content h4 {
 
   font-size: 1.6rem;
@@ -1048,6 +1055,15 @@ align-content: center;
 .contact-details{
   font-size: 13px;
 }
+.main-content h1 {
+  font-size: 25xp;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 2px;
+
+}
+
 }
 
 @media screen and (max-width: 340px) {
