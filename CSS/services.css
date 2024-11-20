@@ -32,6 +32,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 2px;
+}
+.main-content{
+  margin-top: 10%;
 }
 .list-row i {
   background-color: var(--main-color);
@@ -45,7 +49,7 @@
 /*=============== CARD ===============*/
 .container {
   display: grid;
-  border: #13bbff;
+  border: var(--main-color);
   place-items: center;
  
 
@@ -54,6 +58,7 @@
 .card__container {
   display: grid;
   row-gap: 3.5rem;
+  margin-top:2px ;
 }
 .card__article:hover{
 
