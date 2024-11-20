@@ -224,6 +224,7 @@ header.sticky {
 }
 .center-text {
   text-align: center;
+  color:var(--main-color);
 }
 .center-text h2 {
   font-size: var(--h2-font);
@@ -399,6 +400,9 @@ form .send-btn:hover {
  
 
 }
+.list-row i {
+ background-color: var(--main-color);
+}
 
 .copyright{
   justify-content: end;
@@ -425,12 +429,18 @@ color: var(--other-color);
 
 }
 
-.contact-details{
-  margin: 10px 0 0 15px;
- 
-
+.con-details i {
+  background-color: var(--main-color);
 }
 
+.contact-details{
+  margin: 10px 0 0 15px;
+ color:var(--text-color) ;
+
+}
+.contact-details span {
+  color:var(--text-color) ;
+}
 .phone-number {
   margin: 3%;
 }
