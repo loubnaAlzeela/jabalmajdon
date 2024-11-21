@@ -834,7 +834,7 @@ align-content: center;
 @media screen and (min-width: 1120px) {
   
   .card__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .card__img {
     width: 348px;
@@ -980,17 +980,21 @@ align-content: center;
 }
 
 @media screen and (min-width: 768px) {
- 
-  .about {
-    background: var(--second-bg-color);
-    display: grid;
-    grid-template-columns: repeat(2);
-    grid-template-rows: repeat(5,1fr);
-    align-items: center;
-    row-gap: 5%;
-    width: 100%;
-   
+  .card__container {
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 1.5rem;
   }
+  .about {
+  background: var(--second-bg-color);
+  display: grid;
+  grid-template-columns: repeat(1);
+  grid-template-rows: repeat(5,1fr);
+  align-items: center;
+  row-gap: 5%;
+  width: 100%;
+ 
+}
   .about-img img {
     width: 250px;
     height: 250px;
