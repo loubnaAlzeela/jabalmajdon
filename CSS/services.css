@@ -37,6 +37,14 @@
 .main-content{
   margin-top: 10%;
 }
+
+.main-content h1 {
+  font-size: 5vw;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 2px;
+}
 .list-row i {
   background-color: var(--main-color);
  }
@@ -281,39 +289,23 @@
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
-  .main-content h1{
-    font-size: 10xp;
-    font-weight: 900;
-    text-align: center;
-    line-height: 1.2;
-    margin-bottom: 2px;
-  }
+  
 }
 @media (max-width:470px) {
-  .main-content h1{
-    font-size: 30xp;
-    font-weight: 900;
-    text-align: center;
-    line-height: 1.2;
-    margin-bottom: 2px;
-  }
+  
 }
 @media (max-width:680px) {
-  .main-content h1{
-    font-size: 1xp;
-    font-weight: 100;
-    text-align: center;
-    line-height: 1.2;
-    margin-bottom: 2px;
-  }
+  
 }
 
 @media (max-width:950px){
-  .main-content h1{
-    font-size: 1xp !important;
-    font-weight: 300;
+
+  .main-content h1 {
+    font-size: 9vw;
+    font-weight: 900;
     text-align: center;
     line-height: 1.2;
-    margin: 20px 0 0 2px;
+    margin-bottom: 2px;
   }
+ 
 }
